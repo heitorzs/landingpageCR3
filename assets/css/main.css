@@ -2165,13 +2165,12 @@ header.major p {
 }
 .menu {
 	display: flex;
-	justify-content: center;
-	gap: 6rem;
+	justify-content: space-around;
+	gap: 1rem;
 	font-size: 24px;
-	margin: 20px;
 }
 .menu li {
-	margin-left: 50px;
+	margin-top: 2rem;
 	text-decoration: none;
 }
 header.major.last {
