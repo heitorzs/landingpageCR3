@@ -2163,7 +2163,13 @@ header.major p {
 	border-top: solid 1px rgba(224, 224, 224, 0.75);
 	display: inline-block;
 }
-
+.menu {
+	display: flex;
+	justify-content: center;
+	gap: 4rem;
+	font-size: 24px;
+	padding: 20px;
+}
 header.major.last {
 	border-bottom: 0;
 	margin-bottom: 0;
